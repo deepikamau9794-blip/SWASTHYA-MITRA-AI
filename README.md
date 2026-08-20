@@ -21,6 +21,25 @@
 
 ---
 
+## 📸 Application Screenshots
+
+### 1. Landing Page & Live Triage Simulation
+![Swasthya Mitra Landing Page](screenshots/01_home_landing.png)
+
+### 2. Multi-Role Portal Authentication (ASHA / Doctor / Admin)
+![Portal Login](screenshots/02_portal_login.png)
+
+### 3. Frontline Healthcare Worker (ASHA) Dashboard
+![ASHA Worker Dashboard](screenshots/03_worker_dashboard.png)
+
+### 4. Guided Step-by-Step Clinical Triage Assessment
+![Guided Triage Assessment](screenshots/04_guided_triage_assessment.png)
+
+### 5. Longitudinal Clinical History & Patient EHR Audit Trail
+![Longitudinal Clinical History](screenshots/05_longitudinal_clinical_history.png)
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
