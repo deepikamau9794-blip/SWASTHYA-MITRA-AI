@@ -21,25 +21,6 @@
 
 ---
 
-## 📸 Application Preview & Screenshots
-
-### 1. Landing & Institutional Portal
-![Home Landing Page](screenshots/01_home_landing.png)
-
-### 2. Frontline Health Worker / Doctor Authentication
-![Portal Login](screenshots/02_portal_login.png)
-
-### 3. Healthcare Worker (ASHA / ANM) Clinical Dashboard
-![Healthcare Worker Dashboard](screenshots/03_worker_dashboard.png)
-
-### 4. Step-by-Step AI-Guided Clinical Triage Assessment
-![Clinical Triage Assessment](screenshots/04_clinical_assessment.png)
-
-### 5. Longitudinal Patient Audit Trail & Clinical History
-![Longitudinal Clinical History](screenshots/05_clinical_history.png)
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
