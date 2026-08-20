@@ -15,12 +15,12 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [language, setLanguageState] = useState<Language>(() => {
-    const saved = localStorage.getItem('bharatgen_lang');
+    const saved = localStorage.getItem('swasthyamitra_lang');
     return (saved === 'hi' || saved === 'en') ? saved : 'hi'; // Default Hindi for rural frontline context
   });
 
   useEffect(() => {
-    localStorage.setItem('bharatgen_lang', language);
+    localStorage.setItem('swasthyamitra_lang', language);
     document.documentElement.lang = language;
   }, [language]);
 

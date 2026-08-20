@@ -124,7 +124,7 @@ export const SyncCenterPage: React.FC = () => {
               Prototype Synchronization Architecture
             </div>
             <p className="text-slate-300 leading-relaxed">
-              BharatGen Health AI utilizes local storage caching paired with service workers to support seamless offline field work by ASHA/ANM workers. In full production deployment, background sync triggers automatically when network telemetry detects a 4G/Wi-Fi connection.
+              Swasthya Mitra AI utilizes local storage caching paired with service workers to support seamless offline field work by ASHA/ANM workers. In full production deployment, background sync triggers automatically when network telemetry detects a 4G/Wi-Fi connection.
             </p>
           </div>
         </main>

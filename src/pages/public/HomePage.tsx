@@ -116,7 +116,7 @@ export const HomePage: React.FC = () => {
             <div className="lg:col-span-7 space-y-6">
               <div className="inline-flex items-center space-x-2 bg-gov-navyLight/80 border border-cyan-400/40 text-cyan-200 px-3.5 py-1.5 rounded-full text-xs font-semibold shadow-inner">
                 <Sparkles className="w-3.5 h-3.5 text-gov-saffron animate-pulse" />
-                <span>BharatGen Rural Health • RECP Pratapgarh Pilot</span>
+                <span>Swasthya Mitra AI • RECP Pratapgarh Pilot</span>
               </div>
 
               <h1 className="text-3xl sm:text-5xl font-black tracking-tight leading-tight">
@@ -324,7 +324,7 @@ export const HomePage: React.FC = () => {
                 {isHindi ? 'संबद्ध स्वास्थ्य केंद्र नेटवर्क — प्रतापगढ़' : 'Linked Healthcare Facilities — Pratapgarh Network'}
               </h2>
               <p className="text-xs text-slate-500">
-                {isHindi ? 'रेफरल एवं टेलीकंसल्टेशन हेतु निकटवर्ती अस्पताल व प्राथमिक स्वास्थ्य केंद्र' : 'Designated referral receiving facilities linked to BharatGen AI ecosystem'}
+                {isHindi ? 'रेफरल एवं टेलीकंसल्टेशन हेतु निकटवर्ती अस्पताल व प्राथमिक स्वास्थ्य केंद्र' : 'Designated referral receiving facilities linked to Swasthya Mitra AI ecosystem'}
               </p>
             </div>
             <Link

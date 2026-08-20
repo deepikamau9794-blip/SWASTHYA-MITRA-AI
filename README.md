@@ -1,5 +1,5 @@
 # Swasthya Mitra AI (स्वास्थ्य मित्र) 🏥
-### BharatGen Rural Health & Triage Intelligence Platform
+### Swasthya Mitra AI Rural Health & Triage Intelligence Platform
 
 [![React](https://img.shields.io/badge/React-18.x-blue.svg)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg)](https://www.typescriptlang.org/)

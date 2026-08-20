@@ -20,10 +20,10 @@ export const AboutPage: React.FC = () => {
         {/* Page Header */}
         <div className="border-b border-slate-200 pb-6 space-y-2">
           <div className="text-xs font-bold uppercase tracking-wider text-gov-saffron">
-            BharatGen Rural Health Initiative • RECP Pratapgarh
+            Swasthya Mitra AI Initiative • RECP Pratapgarh
           </div>
           <h1 className="text-3xl font-black text-gov-navy">
-            {isHindi ? 'भारतजेन ग्रामीण स्वास्थ्य एआई पहल के बारे में' : 'About BharatGen Rural Health AI'}
+            {isHindi ? 'स्वास्थ्या मित्र एआई पहल के बारे में' : 'About Swasthya Mitra AI'}
           </h1>
           <p className="text-sm text-slate-600 leading-relaxed">
             {isHindi
@@ -53,12 +53,12 @@ export const AboutPage: React.FC = () => {
               <Cpu className="w-5 h-5 text-emerald-700" />
             </div>
             <h3 className="text-base font-bold text-slate-900">
-              {isHindi ? 'हमारा समाधान: निर्णय-समर्थन' : 'The BharatGen Decision Support Approach'}
+              {isHindi ? 'हमारा समाधान: निर्णय-समर्थन' : 'The Swasthya Mitra AI Decision Support Approach'}
             </h3>
             <p className="text-xs text-slate-600 leading-relaxed">
               {isHindi
-                ? 'भारतजेन एआई सरकारी प्रोटोकॉल (IMNCI, NVBDCP) के आधार पर प्राथमिक जांच करता है, पारदर्शी कारण बताता है, और आपातकालीन मामलों को सीधे एम्स गोरखपुर से टेलीकंसल्टेशन द्वारा जोड़ता है।'
-                : 'BharatGen AI synthesizes input symptoms against verified Indian public health protocols, calculates transparent triage urgency, and links critical cases to apex tele-specialists.'}
+                ? 'स्वास्थ्या मित्र एआई सरकारी प्रोटोकॉल (IMNCI, NVBDCP) के आधार पर प्राथमिक जांच करता है, पारदर्शी कारण बताता है, और आपातकालीन मामलों को सीधे एम्स गोरखपुर से टेलीकंसल्टेशन द्वारा जोड़ता है।'
+                : 'Swasthya Mitra AI synthesizes input symptoms against verified Indian public health protocols, calculates transparent triage urgency, and links critical cases to apex tele-specialists.'}
             </p>
           </div>
         </div>
@@ -71,7 +71,7 @@ export const AboutPage: React.FC = () => {
           </div>
 
           <p className="text-xs text-slate-300 leading-relaxed">
-            BharatGen Rural Health AI operates strictly as a <strong>decision-support and triage assistance tool</strong> for trained community health personnel.
+            Swasthya Mitra AI operates strictly as a <strong>decision-support and triage assistance tool</strong> for trained community health personnel.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">

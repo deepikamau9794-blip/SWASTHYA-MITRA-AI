@@ -49,7 +49,7 @@ export const ResourcesPage: React.FC = () => {
             {isHindi ? 'संसाधन, नैदानिक दिशानिर्देश व दस्तावेज' : 'Clinical Resources & Verified Protocols'}
           </h1>
           <p className="text-sm text-slate-600 mt-1">
-            {isHindi ? 'भारतजेन एआई द्वारा उपयोग किए जाने वाले आधिकारिक सरकारी स्वास्थ्य प्रोटोकॉल' : 'Authoritative public health guidelines integrated into the BharatGen AI knowledge base.'}
+            {isHindi ? 'स्वास्थ्या मित्र एआई द्वारा उपयोग किए जाने वाले आधिकारिक सरकारी स्वास्थ्य प्रोटोकॉल' : 'Authoritative public health guidelines integrated into the Swasthya Mitra AI knowledge base.'}
           </p>
         </div>
 

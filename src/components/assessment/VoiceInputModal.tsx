@@ -85,7 +85,7 @@ export const VoiceInputModal: React.FC<VoiceInputModalProps> = ({
                 {language === 'hi' ? 'हिंदी व स्थानीय बोली वॉयस इनपुट' : 'Hindi & Dialect Voice Input'}
               </h3>
               <p className="text-xs text-slate-300">
-                {language === 'hi' ? 'मरीज के लक्षण बोलकर दर्ज करें (BharatGen Speech AI)' : 'Speak symptoms in natural rural Hindi / Awadhi'}
+                {language === 'hi' ? 'मरीज के लक्षण बोलकर दर्ज करें (स्वास्थ्या मित्र वॉयस एआई)' : 'Speak symptoms in natural rural Hindi / Awadhi'}
               </p>
             </div>
           </div>

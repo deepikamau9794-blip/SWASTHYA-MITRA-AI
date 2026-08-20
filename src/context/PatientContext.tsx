@@ -31,48 +31,48 @@ const PatientContext = createContext<PatientContextType | undefined>(undefined);
 
 export const PatientProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [patients, setPatients] = useState<Patient[]>(() => {
-    const saved = localStorage.getItem('bharatgen_patients');
+    const saved = localStorage.getItem('swasthyamitra_patients');
     return saved ? JSON.parse(saved) : mockPatients;
   });
 
   const [assessments, setAssessments] = useState<AssessmentRecord[]>(() => {
-    const saved = localStorage.getItem('bharatgen_assessments');
+    const saved = localStorage.getItem('swasthyamitra_assessments');
     return saved ? JSON.parse(saved) : mockInitialAssessments;
   });
 
   const [reminders, setReminders] = useState<WorkerReminder[]>(() => {
-    const saved = localStorage.getItem('bharatgen_reminders');
+    const saved = localStorage.getItem('swasthyamitra_reminders');
     return saved ? JSON.parse(saved) : mockReminders;
   });
 
   const [facilities, setFacilities] = useState<Facility[]>(() => {
-    const saved = localStorage.getItem('bharatgen_facilities');
+    const saved = localStorage.getItem('swasthyamitra_facilities');
     return saved ? JSON.parse(saved) : mockFacilities;
   });
 
   const [notices, setNotices] = useState<NoticeItem[]>(() => {
-    const saved = localStorage.getItem('bharatgen_notices');
+    const saved = localStorage.getItem('swasthyamitra_notices');
     return saved ? JSON.parse(saved) : mockNotices;
   });
 
   useEffect(() => {
-    localStorage.setItem('bharatgen_patients', JSON.stringify(patients));
+    localStorage.setItem('swasthyamitra_patients', JSON.stringify(patients));
   }, [patients]);
 
   useEffect(() => {
-    localStorage.setItem('bharatgen_assessments', JSON.stringify(assessments));
+    localStorage.setItem('swasthyamitra_assessments', JSON.stringify(assessments));
   }, [assessments]);
 
   useEffect(() => {
-    localStorage.setItem('bharatgen_reminders', JSON.stringify(reminders));
+    localStorage.setItem('swasthyamitra_reminders', JSON.stringify(reminders));
   }, [reminders]);
 
   useEffect(() => {
-    localStorage.setItem('bharatgen_facilities', JSON.stringify(facilities));
+    localStorage.setItem('swasthyamitra_facilities', JSON.stringify(facilities));
   }, [facilities]);
 
   useEffect(() => {
-    localStorage.setItem('bharatgen_notices', JSON.stringify(notices));
+    localStorage.setItem('swasthyamitra_notices', JSON.stringify(notices));
   }, [notices]);
 
   const addPatient = (patientData: Omit<Patient, 'id' | 'registeredAt'>): Patient => {
@@ -200,11 +200,11 @@ export const PatientProvider: React.FC<{ children: React.ReactNode }> = ({ child
     setReminders(mockReminders);
     setFacilities(mockFacilities);
     setNotices(mockNotices);
-    localStorage.removeItem('bharatgen_patients');
-    localStorage.removeItem('bharatgen_assessments');
-    localStorage.removeItem('bharatgen_reminders');
-    localStorage.removeItem('bharatgen_facilities');
-    localStorage.removeItem('bharatgen_notices');
+    localStorage.removeItem('swasthyamitra_patients');
+    localStorage.removeItem('swasthyamitra_assessments');
+    localStorage.removeItem('swasthyamitra_reminders');
+    localStorage.removeItem('swasthyamitra_facilities');
+    localStorage.removeItem('swasthyamitra_notices');
   };
 
   const loadDemoPersona = (personaKey: 'red' | 'amber' | 'green') => {

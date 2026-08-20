@@ -61,7 +61,7 @@ export const AIPipelineVisualizer: React.FC<AIPipelineVisualizerProps> = ({ onCo
       {/* Header Badge */}
       <div className="inline-flex items-center space-x-2 bg-blue-50 border border-blue-200 text-gov-navy px-3 py-1 rounded-full text-xs font-bold mb-4">
         <Sparkles className="w-3.5 h-3.5 text-gov-saffron animate-spin" />
-        <span>BharatGen Clinical Decision Support Engine</span>
+        <span>Swasthya Mitra Clinical Decision Support Engine</span>
       </div>
 
       <h2 className="text-xl font-black text-gov-navy mb-2">

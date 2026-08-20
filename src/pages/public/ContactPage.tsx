@@ -28,7 +28,7 @@ export const ContactPage: React.FC = () => {
             {isHindi ? 'हेल्पडेस्क एवं संपर्क' : 'Contact & Technical Helpdesk'}
           </h1>
           <p className="text-sm text-slate-600 mt-1">
-            {isHindi ? 'प्रतापगढ़ जिला स्वास्थ्य समिति एवं भारतजेन एआई सहायता केंद्र' : 'District Health Society Pratapgarh & BharatGen Health AI Pilot Support.'}
+            {isHindi ? 'प्रतापगढ़ जिला स्वास्थ्य समिति एवं स्वास्थ्या मित्र एआई सहायता केंद्र' : 'District Health Society Pratapgarh & Swasthya Mitra AI Pilot Support.'}
           </p>
         </div>
 
@@ -61,14 +61,14 @@ export const ContactPage: React.FC = () => {
                   <Mail className="w-4 h-4 text-gov-navy flex-shrink-0 mt-0.5" />
                   <div>
                     <strong className="block text-slate-900">Official Electronic Mail:</strong>
-                    <span className="font-mono">cmo.pratapgarh@nic.in / bharatgen.recp@gov.in</span>
+                    <span className="font-mono">cmo.pratapgarh@nic.in / swasthyamitra.recp@gov.in</span>
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="bg-emerald-50 border border-emerald-200 p-5 rounded-2xl space-y-2 text-xs text-emerald-900">
-              <strong className="font-bold text-sm block">BharatGen Rural Health AI Initiative</strong>
+              <strong className="font-bold text-sm block">Swasthya Mitra AI Initiative</strong>
               <p className="leading-relaxed">
                 Developed by the Student Developer Cell at <strong>Rajkiya Engineering College Pratapgarh (RECP)</strong> in collaboration with District Health Society, Pratapgarh.
               </p>

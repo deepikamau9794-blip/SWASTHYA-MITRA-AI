@@ -48,7 +48,7 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [user, setUser] = useState<UserProfile | null>(() => {
-    const saved = localStorage.getItem('bharatgen_user');
+    const saved = localStorage.getItem('swasthyamitra_user');
     if (saved) {
       try {
         return JSON.parse(saved);
@@ -61,9 +61,9 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   useEffect(() => {
     if (user) {
-      localStorage.setItem('bharatgen_user', JSON.stringify(user));
+      localStorage.setItem('swasthyamitra_user', JSON.stringify(user));
     } else {
-      localStorage.removeItem('bharatgen_user');
+      localStorage.removeItem('swasthyamitra_user');
     }
   }, [user]);
 

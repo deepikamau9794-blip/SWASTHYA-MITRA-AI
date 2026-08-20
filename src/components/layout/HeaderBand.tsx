@@ -25,7 +25,7 @@ export const HeaderBand: React.FC = () => {
 
       {/* Main Institutional Header Lockup */}
       <div className="max-w-7xl mx-auto px-4 sm:px-8 py-3 flex items-center justify-between">
-        {/* Left: National Emblem & BharatGen Logo */}
+        {/* Left: National Emblem & Swasthya Mitra Logo */}
         <Link to="/" className="flex items-center space-x-3 group">
           {/* Government Emblem Styled Mark */}
           <div className="w-11 h-11 bg-gov-navy rounded-lg flex items-center justify-center text-white shadow-md border-2 border-gov-saffron group-hover:scale-105 transition-transform flex-shrink-0">

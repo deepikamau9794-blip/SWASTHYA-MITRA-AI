@@ -19,24 +19,24 @@ const AccessibilityContext = createContext<AccessibilityContextType | undefined>
 
 export const AccessibilityProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [fontSize, setFontSizeState] = useState<FontSize>(() => {
-    return (localStorage.getItem('bharatgen_font_size') as FontSize) || 'normal';
+    return ((localStorage.getItem('swasthyamitra_font_size')) as FontSize) || 'normal';
   });
 
   const [highContrast, setHighContrastState] = useState<boolean>(() => {
-    return localStorage.getItem('bharatgen_contrast') === 'true';
+    return localStorage.getItem('swasthyamitra_contrast') === 'true';
   });
 
   const [isSpeaking, setIsSpeaking] = useState<boolean>(false);
 
   useEffect(() => {
-    localStorage.setItem('bharatgen_font_size', fontSize);
+    localStorage.setItem('swasthyamitra_font_size', fontSize);
     const root = document.documentElement;
     root.classList.remove('font-scale-normal', 'font-scale-large', 'font-scale-larger');
     root.classList.add(`font-scale-${fontSize}`);
   }, [fontSize]);
 
   useEffect(() => {
-    localStorage.setItem('bharatgen_contrast', String(highContrast));
+    localStorage.setItem('swasthyamitra_contrast', String(highContrast));
     const root = document.documentElement;
     if (highContrast) {
       root.classList.add('high-contrast-mode');

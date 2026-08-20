@@ -18,8 +18,8 @@ export const mockNotices: NoticeItem[] = [
     titleHi: "मानसून मच्छर जनित बुखार निगरानी प्रोटोकॉल (डेंगू/मलेरिया/जेई सतर्कता)",
     date: "16 Aug 2026",
     category: "CIRCULAR",
-    content: "Frontline health workers are advised to utilize the Fever Rapid Diagnostic Kit (RDT) for cases with fever > 3 days and immediately record in BharatGen AI.",
-    contentHi: "3 दिन से अधिक के बुखार वाले सभी मरीजों की आरडीटी किट से जांच करें और विवरण तुरंत भारतजेन एआई पोर्टल पर दर्ज करें।",
+    content: "Frontline health workers are advised to utilize the Fever Rapid Diagnostic Kit (RDT) for cases with fever > 3 days and immediately record in Swasthya Mitra AI.",
+    contentHi: "3 दिन से अधिक के बुखार वाले सभी मरीजों की आरडीटी किट से जांच करें और विवरण तुरंत स्वास्थ्या मित्र एआई पोर्टल पर दर्ज करें।",
     isPinned: true,
     department: "District Health Society Pratapgarh"
   },
@@ -43,7 +43,7 @@ export const mockNotices: NoticeItem[] = [
     content: "Frontline workers can now tap 'Speak Symptoms in Hindi' to transcribe rural colloquial complaints directly into structured clinical parameters.",
     contentHi: "अब 'हिंदी में बोलें' बटन दबाकर ग्रामीण मरीजों के लक्षणों को सीधे सिस्टम में दर्ज किया जा सकता है।",
     isPinned: false,
-    department: "BharatGen AI R&D Cell"
+    department: "Swasthya Mitra AI R&D Cell"
   }
 ];
 

@@ -16,27 +16,27 @@ const SyncContext = createContext<SyncContextType | undefined>(undefined);
 
 export const SyncProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [isOffline, setIsOffline] = useState<boolean>(() => {
-    return localStorage.getItem('bharatgen_offline') === 'true';
+    return localStorage.getItem('swasthyamitra_offline') === 'true';
   });
 
   const [pendingSyncCount, setPendingSyncCount] = useState<number>(() => {
-    const saved = localStorage.getItem('bharatgen_pending_sync');
+    const saved = localStorage.getItem('swasthyamitra_pending_sync');
     return saved ? parseInt(saved, 10) : 0;
   });
 
   const [lastSyncedTimestamp, setLastSyncedTimestamp] = useState<string>(() => {
-    return localStorage.getItem('bharatgen_last_sync') || 'Today, 10:30 AM';
+    return localStorage.getItem('swasthyamitra_last_sync') ?? 'Today, 10:30 AM';
   });
 
   const [isSyncing, setIsSyncing] = useState<boolean>(false);
   const [syncMessage, setSyncMessage] = useState<string | null>(null);
 
   useEffect(() => {
-    localStorage.setItem('bharatgen_offline', String(isOffline));
+    localStorage.setItem('swasthyamitra_offline', String(isOffline));
   }, [isOffline]);
 
   useEffect(() => {
-    localStorage.setItem('bharatgen_pending_sync', String(pendingSyncCount));
+    localStorage.setItem('swasthyamitra_pending_sync', String(pendingSyncCount));
   }, [pendingSyncCount]);
 
   const toggleOfflineMode = () => {
@@ -77,7 +77,7 @@ export const SyncProvider: React.FC<{ children: React.ReactNode }> = ({ children
         const now = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
         const timeStr = `Today, ${now}`;
         setLastSyncedTimestamp(timeStr);
-        localStorage.setItem('bharatgen_last_sync', timeStr);
+        localStorage.setItem('swasthyamitra_last_sync', timeStr);
         setIsSyncing(false);
         setSyncMessage(`Synchronization Complete! ${count > 0 ? count : 'All'} field records updated.`);
         setTimeout(() => setSyncMessage(null), 4000);

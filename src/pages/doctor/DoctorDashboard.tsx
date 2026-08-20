@@ -78,7 +78,7 @@ export const DoctorDashboard: React.FC = () => {
             <div className="space-y-0.5">
               <strong className="font-extrabold block">Clinical Governance & Decision-Support Safety Notice:</strong>
               <p className="leading-relaxed">
-                BharatGen AI provides risk stratification and evidence-based preliminary triage based on frontline worker inputs. <strong>The AI system never prescribes medications or replaces definitive clinical judgment.</strong> All prescription and clinical admission decisions reside exclusively with the attending licensed Medical Officer.
+                Swasthya Mitra AI provides risk stratification and evidence-based preliminary triage based on frontline worker inputs. <strong>The AI system never prescribes medications or replaces definitive clinical judgment.</strong> All prescription and clinical admission decisions reside exclusively with the attending licensed Medical Officer.
               </p>
             </div>
           </div>

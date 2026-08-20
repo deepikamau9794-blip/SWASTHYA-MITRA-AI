@@ -71,7 +71,7 @@ export const ReferralDocument: React.FC<ReferralDocumentProps> = ({
             Ministry of Health & Family Welfare • Government of Uttar Pradesh
           </div>
           <h2 className="text-xl font-black text-gov-navy uppercase tracking-tight">
-            BharatGen Rural Health AI — Clinical Referral Slip
+            Swasthya Mitra AI — Clinical Referral Slip
           </h2>
           <div className="text-xs text-slate-600 font-semibold">
             District Health Society, Pratapgarh • Frontline Clinical Decision Support System

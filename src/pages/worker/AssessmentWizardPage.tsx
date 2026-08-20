@@ -624,7 +624,7 @@ export const AssessmentWizardPage: React.FC = () => {
                   className="bg-gov-navy hover:bg-gov-navyDark text-white px-7 py-3 rounded-xl font-black text-xs flex items-center space-x-2 shadow-lg transform hover:scale-105"
                 >
                   <Sparkles className="w-4 h-4 text-gov-saffron animate-spin" />
-                  <span>Run BharatGen AI Triage Decision Support</span>
+                  <span>Run Swasthya Mitra AI Triage Decision Support</span>
                 </button>
               </div>
             </div>
