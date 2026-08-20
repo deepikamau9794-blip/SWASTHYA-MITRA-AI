@@ -122,7 +122,7 @@ export const AppSidebar: React.FC = () => {
           </span>
         </div>
         <div className="text-[10px] text-slate-400 leading-tight">
-          RECP Pratapgarh • SIH 2026 Proto v1.0
+          RECP Pratapgarh • Swasthya Mitra v1.0
         </div>
       </div>
     </aside>

@@ -81,7 +81,7 @@ export const Footer: React.FC = () => {
         {/* Bottom Legal & Attribution Strip */}
         <div className="mt-8 pt-6 border-t border-slate-800 flex flex-col md:flex-row items-center justify-between text-[11px] text-slate-400 gap-4">
           <div>
-            © 2026 Swasthya Mitra AI • Developed for <strong className="text-slate-200">Smart India Hackathon 2026 (Internal SIH) — RECP Pratapgarh</strong>
+            © 2026 Swasthya Mitra AI • Developed by <strong className="text-slate-200">RECP Pratapgarh &amp; District Health Society</strong>
           </div>
           <div className="flex items-center space-x-4">
             <span className="hover:text-slate-200 cursor-pointer">Privacy Policy</span>

@@ -20,7 +20,7 @@ export const AboutPage: React.FC = () => {
         {/* Page Header */}
         <div className="border-b border-slate-200 pb-6 space-y-2">
           <div className="text-xs font-bold uppercase tracking-wider text-gov-saffron">
-            Smart India Hackathon 2026 • RECP Pratapgarh
+            BharatGen Rural Health Initiative • RECP Pratapgarh
           </div>
           <h1 className="text-3xl font-black text-gov-navy">
             {isHindi ? 'भारतजेन ग्रामीण स्वास्थ्य एआई पहल के बारे में' : 'About BharatGen Rural Health AI'}

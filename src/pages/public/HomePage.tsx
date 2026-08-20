@@ -116,7 +116,7 @@ export const HomePage: React.FC = () => {
             <div className="lg:col-span-7 space-y-6">
               <div className="inline-flex items-center space-x-2 bg-gov-navyLight/80 border border-cyan-400/40 text-cyan-200 px-3.5 py-1.5 rounded-full text-xs font-semibold shadow-inner">
                 <Sparkles className="w-3.5 h-3.5 text-gov-saffron animate-pulse" />
-                <span>Smart India Hackathon 2026 • RECP Pratapgarh Pilot</span>
+                <span>BharatGen Rural Health • RECP Pratapgarh Pilot</span>
               </div>
 
               <h1 className="text-3xl sm:text-5xl font-black tracking-tight leading-tight">

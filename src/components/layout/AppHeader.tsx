@@ -85,7 +85,7 @@ export const AppHeader: React.FC<{ pageTitle?: string }> = ({ pageTitle }) => {
             <button
               onClick={() => setDemoMenuOpen(!demoMenuOpen)}
               className="hidden sm:flex items-center space-x-1.5 bg-purple-50 hover:bg-purple-100 text-purple-800 text-xs font-bold px-2.5 py-1.5 rounded-lg border border-purple-200 transition-colors shadow-2xs"
-              title="Quickly test with pre-built SIH demo personas"
+              title="Quickly test with pre-built demo personas"
             >
               <Sparkles className="w-3.5 h-3.5 text-purple-600 animate-pulse" />
               <span>Demo Persona</span>
@@ -95,7 +95,7 @@ export const AppHeader: React.FC<{ pageTitle?: string }> = ({ pageTitle }) => {
             {demoMenuOpen && (
               <div className="absolute right-0 mt-2 w-72 bg-white rounded-xl shadow-xl border border-slate-200 py-2 z-50 animate-in fade-in slide-in-from-top-2">
                 <div className="px-3 py-1.5 border-b border-slate-100">
-                  <div className="text-xs font-bold text-slate-800">Select SIH Demo Case:</div>
+                  <div className="text-xs font-bold text-slate-800">Select Demo Clinical Case:</div>
                   <div className="text-[11px] text-slate-500">Loads instant clinical dataset</div>
                 </div>
                 <button

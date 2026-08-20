@@ -38,9 +38,6 @@ export const HeaderBand: React.FC = () => {
             <div className="text-xl sm:text-2xl font-black text-gov-navy tracking-tight flex items-center gap-1.5 font-sans">
               <span>Swasthya Mitra</span>
               <span className="text-gov-saffron font-bold text-lg sm:text-xl">AI</span>
-              <span className="hidden md:inline-block text-[10px] uppercase font-bold tracking-widest bg-emerald-100 text-emerald-800 px-1.5 py-0.5 rounded border border-emerald-300">
-                SIH 2026
-              </span>
             </div>
             <div className="text-[11px] text-slate-600 hidden sm:block font-medium">
               {t('tagline')} — <span className="text-slate-500">Pratapgarh, Uttar Pradesh</span>

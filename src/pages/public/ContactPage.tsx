@@ -68,7 +68,7 @@ export const ContactPage: React.FC = () => {
             </div>
 
             <div className="bg-emerald-50 border border-emerald-200 p-5 rounded-2xl space-y-2 text-xs text-emerald-900">
-              <strong className="font-bold text-sm block">Smart India Hackathon (SIH 2026) Prototype</strong>
+              <strong className="font-bold text-sm block">BharatGen Rural Health AI Initiative</strong>
               <p className="leading-relaxed">
                 Developed by the Student Developer Cell at <strong>Rajkiya Engineering College Pratapgarh (RECP)</strong> in collaboration with District Health Society, Pratapgarh.
               </p>
