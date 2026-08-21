@@ -83,16 +83,30 @@ export const Footer: React.FC = () => {
           <div>
             © 2026 Swasthya Mitra AI • Developed by <strong className="text-slate-200">RECP Pratapgarh &amp; District Health Society</strong>
           </div>
-          <div className="flex items-center space-x-4">
+          <div className="flex flex-wrap items-center gap-3">
+            <a
+              href="https://swasthya-mitra-ai-demo.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="text-gov-saffron hover:underline flex items-center gap-1 font-medium"
+            >
+              Live Demo <ExternalLink className="w-3 h-3" />
+            </a>
+            <span>•</span>
+            <a
+              href="https://github.com/deepikamau9794-blip/SWASTHYA-MITRA-AI"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-slate-200 flex items-center gap-1"
+            >
+              GitHub <ExternalLink className="w-3 h-3 text-slate-500" />
+            </a>
+            <span>•</span>
             <span className="hover:text-slate-200 cursor-pointer">Privacy Policy</span>
             <span>•</span>
             <span className="hover:text-slate-200 cursor-pointer">Terms of Use</span>
             <span>•</span>
-            <span className="hover:text-slate-200 cursor-pointer">RTI</span>
-            <span>•</span>
-            <span className="hover:text-slate-200 cursor-pointer">Accessibility Statement</span>
-            <span>•</span>
-            <span className="hover:text-slate-200 cursor-pointer">Sitemap</span>
+            <span className="hover:text-slate-200 cursor-pointer">Accessibility</span>
           </div>
         </div>
       </div>

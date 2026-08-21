@@ -5,6 +5,11 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-6.x-646CFF.svg)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.x-38B2AC.svg)](https://tailwindcss.com/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-swasthya--mitra--ai--demo.vercel.app-000000.svg?style=flat&logo=vercel&logoColor=white)](https://swasthya-mitra-ai-demo.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717.svg?style=flat&logo=github)](https://github.com/deepikamau9794-blip/SWASTHYA-MITRA-AI)
+
+> 🌐 **Live Demo Application**: [https://swasthya-mitra-ai-demo.vercel.app/](https://swasthya-mitra-ai-demo.vercel.app/)  
+> 📦 **GitHub Repository**: [https://github.com/deepikamau9794-blip/SWASTHYA-MITRA-AI](https://github.com/deepikamau9794-blip/SWASTHYA-MITRA-AI)
 
 **Swasthya Mitra AI** is an AI-powered rural healthcare decision-support and triage platform designed for frontline health workers (ASHA/ANM) and community health centers in India. It empowers rural medical teams with multilingual voice-assisted clinical triage, offline-first data synchronization, emergency protocol support, ABHA integration, and teleconsultation readiness.
 
